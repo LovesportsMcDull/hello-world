@@ -1,0 +1,7 @@
+ssh 免密登陆 记录
+1 生成ssh key
+ssh-keygen -t rsa
+2. 互相拷贝
+ssh-copy-id root@124.23.134.178
+这是其他机器拷贝178的例子
+3. 主要 .ssh目录下的权限 700
